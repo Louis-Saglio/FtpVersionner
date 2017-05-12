@@ -8,12 +8,17 @@ env.host_string = '192.168.56.101'
 env.user = 'clean'
 env.password = '159Ukicz!'
 
-client_root = "C:\\Users\\Louis Saglio\\Desktop\\Test-pull\\"
+# Categoria in quam limae sunt transmovendae
+client_root = "C:\\Users\\Louis Saglio\\Desktop\\Demo\\"
+# Via categoriae ubi sunt transmovendae
 server_root = "/home/clean/file-server/"
+# Via scripti dans viam omniarum limarum
 liste_des_fichiers = client_root + ".liste-des-fichiers"
 
+# Delere limas locales
 if isdir(client_root):
     rmtree(client_root)
+
 
 run("/home/clean/list_files")
 get("/home/clean/liste-des-fichiers", liste_des_fichiers)

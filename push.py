@@ -10,7 +10,7 @@ env.password = '159Ukicz!'
 ftp = FTP(env.host_string, env.user, env.password)
 
 server_root = '/home/clean/file-server'
-client_root = "C:\\Users\\Louis Saglio\\Desktop\\Classés\\BI"  # getcwd()
+client_root = "C:\\Users\\Louis Saglio\\Demo"
 
 # noinspection PyBroadException
 try:
