@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 # coding: utf-8
 
-# Ce fichier est à placer sur le serveur à l'emplacement suivant : /home/clean/file-server
+# Ce fichier est Ã  placer sur le serveur Ã  l'emplacement suivant : /home/clean/file-server
 
 from os import walk
 
